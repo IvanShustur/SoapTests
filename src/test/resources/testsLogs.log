@@ -1,0 +1,243 @@
+2022-05-26 16:33:45,595 INFO u.SoapLogger [main] 
+REQUEST Name:  createAuthorRequest
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:lib="libraryService">
+  <SOAP-ENV:Header/>
+  <SOAP-ENV:Body>
+    <lib:createAuthorRequest>
+      <lib:author>
+        <lib:authorId>25</lib:authorId>
+        <lib:authorName>
+          <lib:first>Rudyard</lib:first>
+          <lib:second>Kipling</lib:second>
+        </lib:authorName>
+        <lib:nationality>British</lib:nationality>
+        <lib:birth>
+          <lib:date>1936-01-18</lib:date>
+          <lib:country>Great Britain</lib:country>
+          <lib:city>London</lib:city>
+        </lib:birth>
+        <lib:authorDescription>short-story writer, poet</lib:authorDescription>
+      </lib:author>
+    </lib:createAuthorRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+ 
+2022-05-26 16:33:45,661 INFO u.SoapLogger [main] 
+RESPONSE:
+<?xml version="1.0" encoding="UTF-8"?><SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP-ENV:Header/>
+  <SOAP-ENV:Body>
+    <ns2:createAuthorResponse xmlns:ns2="libraryService">
+      <ns2:author>
+        <ns2:authorId>25</ns2:authorId>
+        <ns2:authorName>
+          <ns2:first>Rudyard</ns2:first>
+          <ns2:second>Kipling</ns2:second>
+        </ns2:authorName>
+        <ns2:nationality>British</ns2:nationality>
+        <ns2:birth>
+          <ns2:date>1936-01-18</ns2:date>
+          <ns2:country>Great Britain</ns2:country>
+          <ns2:city>London</ns2:city>
+        </ns2:birth>
+        <ns2:authorDescription>short-story writer, poet</ns2:authorDescription>
+      </ns2:author>
+    </ns2:createAuthorResponse>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+ 
+2022-05-26 16:33:45,844 INFO u.SoapLogger [main] 
+REQUEST Name:  deleteAuthorRequest
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:lib="libraryService">
+  <SOAP-ENV:Header/>
+  <SOAP-ENV:Body>
+    <lib:deleteAuthorRequest>
+      <lib:authorId>25</lib:authorId>
+      <lib:options>
+        <lib:forcibly>false</lib:forcibly>
+      </lib:options>
+    </lib:deleteAuthorRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+ 
+2022-05-26 16:33:45,897 INFO u.SoapLogger [main] 
+REQUEST Name:  createAuthorRequest
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:lib="libraryService">
+  <SOAP-ENV:Header/>
+  <SOAP-ENV:Body>
+    <lib:createAuthorRequest>
+      <lib:author>
+        <lib:authorId>25</lib:authorId>
+        <lib:authorName>
+          <lib:first>Rudyard</lib:first>
+          <lib:second>Kipling</lib:second>
+        </lib:authorName>
+        <lib:nationality>British</lib:nationality>
+        <lib:birth>
+          <lib:date>1936-01-18</lib:date>
+          <lib:country>Great Britain</lib:country>
+          <lib:city>London</lib:city>
+        </lib:birth>
+        <lib:authorDescription>short-story writer, poet</lib:authorDescription>
+      </lib:author>
+    </lib:createAuthorRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+ 
+2022-05-26 16:33:45,917 INFO u.SoapLogger [main] 
+RESPONSE:
+<?xml version="1.0" encoding="UTF-8"?><SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP-ENV:Header/>
+  <SOAP-ENV:Body>
+    <ns2:createAuthorResponse xmlns:ns2="libraryService">
+      <ns2:author>
+        <ns2:authorId>25</ns2:authorId>
+        <ns2:authorName>
+          <ns2:first>Rudyard</ns2:first>
+          <ns2:second>Kipling</ns2:second>
+        </ns2:authorName>
+        <ns2:nationality>British</ns2:nationality>
+        <ns2:birth>
+          <ns2:date>1936-01-18</ns2:date>
+          <ns2:country>Great Britain</ns2:country>
+          <ns2:city>London</ns2:city>
+        </ns2:birth>
+        <ns2:authorDescription>short-story writer, poet</ns2:authorDescription>
+      </ns2:author>
+    </ns2:createAuthorResponse>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+ 
+2022-05-26 16:33:45,931 INFO u.SoapLogger [main] 
+REQUEST Name:  deleteAuthorRequest
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:lib="libraryService">
+  <SOAP-ENV:Header/>
+  <SOAP-ENV:Body>
+    <lib:deleteAuthorRequest>
+      <lib:authorId>25</lib:authorId>
+      <lib:options>
+        <lib:forcibly>false</lib:forcibly>
+      </lib:options>
+    </lib:deleteAuthorRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+ 
+2022-05-26 16:33:45,961 INFO u.SoapLogger [main] 
+REQUEST Name:  deleteAuthorRequest
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:lib="libraryService">
+  <SOAP-ENV:Header/>
+  <SOAP-ENV:Body>
+    <lib:deleteAuthorRequest>
+      <lib:authorId>25</lib:authorId>
+      <lib:options>
+        <lib:forcibly>false</lib:forcibly>
+      </lib:options>
+    </lib:deleteAuthorRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+ 
+2022-05-26 16:33:45,982 INFO u.SoapLogger [main] 
+REQUEST Name:  createAuthorRequest
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:lib="libraryService">
+  <SOAP-ENV:Header/>
+  <SOAP-ENV:Body>
+    <lib:createAuthorRequest>
+      <lib:author>
+        <lib:authorId>25</lib:authorId>
+        <lib:authorName>
+          <lib:first>Rudyard</lib:first>
+          <lib:second>Kipling</lib:second>
+        </lib:authorName>
+        <lib:nationality>British</lib:nationality>
+        <lib:birth>
+          <lib:date>1936-01-18</lib:date>
+          <lib:country>Great Britain</lib:country>
+          <lib:city>London</lib:city>
+        </lib:birth>
+        <lib:authorDescription>short-story writer, poet</lib:authorDescription>
+      </lib:author>
+    </lib:createAuthorRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+ 
+2022-05-26 16:33:45,994 INFO u.SoapLogger [main] 
+RESPONSE:
+<?xml version="1.0" encoding="UTF-8"?><SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP-ENV:Header/>
+  <SOAP-ENV:Body>
+    <ns2:createAuthorResponse xmlns:ns2="libraryService">
+      <ns2:author>
+        <ns2:authorId>25</ns2:authorId>
+        <ns2:authorName>
+          <ns2:first>Rudyard</ns2:first>
+          <ns2:second>Kipling</ns2:second>
+        </ns2:authorName>
+        <ns2:nationality>British</ns2:nationality>
+        <ns2:birth>
+          <ns2:date>1936-01-18</ns2:date>
+          <ns2:country>Great Britain</ns2:country>
+          <ns2:city>London</ns2:city>
+        </ns2:birth>
+        <ns2:authorDescription>short-story writer, poet</ns2:authorDescription>
+      </ns2:author>
+    </ns2:createAuthorResponse>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+ 
+2022-05-26 16:33:45,997 INFO u.SoapLogger [main] 
+REQUEST Name:  getAuthorRequest
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:lib="libraryService">
+  <SOAP-ENV:Header/>
+  <SOAP-ENV:Body>
+    <lib:getAuthorRequest>
+      <lib:authorId>25</lib:authorId>
+    </lib:getAuthorRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+ 
+2022-05-26 16:33:46,013 INFO u.SoapLogger [main] 
+RESPONSE:
+<?xml version="1.0" encoding="UTF-8"?><SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP-ENV:Header/>
+  <SOAP-ENV:Body>
+    <ns2:getAuthorResponse xmlns:ns2="libraryService">
+      <ns2:author>
+        <ns2:authorId>25</ns2:authorId>
+        <ns2:authorName>
+          <ns2:first>Rudyard</ns2:first>
+          <ns2:second>Kipling</ns2:second>
+        </ns2:authorName>
+        <ns2:nationality>British</ns2:nationality>
+        <ns2:birth>
+          <ns2:date>1936-01-18</ns2:date>
+          <ns2:country>Great Britain</ns2:country>
+          <ns2:city>London</ns2:city>
+        </ns2:birth>
+        <ns2:authorDescription>short-story writer, poet</ns2:authorDescription>
+      </ns2:author>
+    </ns2:getAuthorResponse>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+ 
+2022-05-26 16:33:46,028 INFO u.SoapLogger [main] 
+REQUEST Name:  deleteAuthorRequest
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:lib="libraryService">
+  <SOAP-ENV:Header/>
+  <SOAP-ENV:Body>
+    <lib:deleteAuthorRequest>
+      <lib:authorId>25</lib:authorId>
+      <lib:options>
+        <lib:forcibly>false</lib:forcibly>
+      </lib:options>
+    </lib:deleteAuthorRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+ 

@@ -1,0 +1,14 @@
+{
+  "authorId": 25,
+  "authorName": {
+    "first": "Rudyard",
+    "second": "Kipling"
+  },
+  "nationality": "British",
+  "birth": {
+    "date": "1936-01-18",
+    "country": "Great Britain",
+    "city": "London"
+  },
+  "authorDescription": "short-story writer, poet"
+}
